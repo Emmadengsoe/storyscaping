@@ -16,8 +16,14 @@ body {
   background-color:white !important;
 }
 
-.main-header-bar-wrap {
-    position: fixed;
-    z-index: 3;
-    width: 100%;
+/*denne kode er for at gøre headeren sticky*/
+.main-header-bar {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 1 !important;
+}
+.sub-menu {
+  display: block !important;
+  z-index: 1 !important;
 }
