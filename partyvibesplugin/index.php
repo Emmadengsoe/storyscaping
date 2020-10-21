@@ -1,11 +1,11 @@
 <?php
 /*
-* Plugin Name: Partyvibes Plugin 
-* Plugin URI: http://localhost/learningwordpress/cheers
-* Description: This is a Newsletter Signup form Plugin for Cheers based on HTML5, CSS, JS and PHP
-* Version: 2.9.9
-* Author: Murat Kilic
-* Author URI: http://localhost/learningwordpress/cheers
+* Plugin Name: Ask a question Plugin 
+* Plugin URI: http://www.thlangs.janehedegaard.com/
+* Description: This is a Ask a question form Plugin for TH. LANGS based on HTML5, CSS, JS and PHP
+* Version: 3.0.1
+* Author: Oliver Brøker, Jane Hedegaard, Mia Jørgensen, Emma Dengsø og Nikolai Hansen
+* Author URI: http://www.thlangs.janehedegaard.com/
 * License: GPL2
 */
 
@@ -15,15 +15,15 @@ function newsletter_form()
     $content .= '<div class="login-form">';
     $content .= '<div class="popupCloseButton">X</div>';
   	$content .= '<section>';
-    $content .= '<img id="logo" src=" '.plugins_url("partyvibesplugin/img/th-langs-logo.png").' " ';
+    $content .= '<img id="logo" src=" '.plugins_url("partyvibesplugin/img/th-lang-logo.png").' " ';
     $content .= 'alt="Cheers Logo">';
-  	$content .= '<h5 id="tilmeld">Har du brug for hjælp? Stil dit spørgsmål her</h5>';
+  	$content .= '<h3 id="tilmeld">Har du et spørgsmål? Så skriv her</h3>';
   	$content .= '</section>';
     $content .= '<section class="form">';
     $content .= '<form action="#" id="myForm">';
     $content .= '<div class="input">';
-    $content .= '<input type="text" name="besked" id="email" placeholder="Skriv dit spørgsmål her..." required>';
-    $content .= '<input type="email" name="email" id="email" placeholder="Skriv din email her..." required><i class="fas fa-envelope"></i>';
+   $content .= '<input type="email" name="email" id="email" placeholder="Skriv din email her..." required><i class="fas fa-envelope"></i>';
+    $content .= '<input type="text" name="text" id="email" placeholder="Skriv dit spørgsmål her..." required>';
     $content .= '</div>';
   	$content .= '<div>';
  	$content .= '<input type="submit" value="Send" name="submitBtn" id="submitBtn2">';
