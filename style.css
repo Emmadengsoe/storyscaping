@@ -16,8 +16,23 @@ body {
   background-color: white !important;
 }
 
-.main-header-bar-wrap {
-    position: fixed;
-    z-index: 3;
-    width: 100%;
+/*denne kode er for at gøre headeren sticky*/
+.main-header-bar {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 1 !important;
+    background-color: white;
+    opacity: 0.5;
 }
+.sub-menu {
+  display: block !important;
+  z-index: 1 !important;
+}
+
+h1 {
+ color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+} 
