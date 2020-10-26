@@ -15,8 +15,7 @@ function newsletter_form()
     $content .= '<div class="login-form">';
     $content .= '<div class="popupCloseButton">X</div>';
   	$content .= '<section>';
-    $content .= '<img id="logo" src=" '.plugins_url("partyvibesplugin/img/th-lang-logo.png").' " ';
-    $content .= 'alt="TH. LANGS logo">';
+    $content .= '<img id="logo" src=" '.plugins_url("partyvibesplugin/img/th-lang-logo.png").' "alt="TH. LANGS logo">';
     	$content .= '<h3 id="tilmeld">Hej jeg er studievejelder fra TH. LANGS </h3>';
   	$content .= '<h3 id="tilmeld">Har du et spørgsmål? Så skriv her</h3>';
   	$content .= '</section>';
@@ -37,26 +36,31 @@ function newsletter_form()
     return $content;
 }
 
-    #First parameter is a self choosen name for a unique short-code. Second parameter is the name of the function that creates the newsletter
-   
-    
-    add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
-    
-
+/*her linker vi til både eksterne og interne stylesheets samt scripts*/
     function register_styles_and_scripts_for_plugin() 
     {
+        /*dette er et eksternt stylesheet*/
         wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
         
+        /*dette er et eksternt stylesheet*/
         wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
         
+        /*dette er et internt stylesheet*/
         wp_enqueue_style('CustomStylesheet', plugins_url('partyvibesplugin/css/style.css'));
         
+        /*dette er til et overodnet jquery script*/
         wp_deregister_script('jquery');
         
+        /*dette er et link til jquery*/
         wp_enqueue_script('jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
         
+        /*dette er et link til vores script*/
         wp_enqueue_script('CustomScript', plugins_url('partyvibesplugin/js/script.js'), array('jquery'), null, true);
     }
 
+/*Her henter vi newsletter delen*/
+add_shortcode('show_partyvibesplugin','newsletter_form');   
 
- add_shortcode('show_partyvibesplugin','newsletter_form');
+/*Her linker vi til vores stylesheets og scripts*/
+add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
+    
