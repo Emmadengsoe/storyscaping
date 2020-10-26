@@ -16,7 +16,7 @@ function newsletter_form()
     $content .= '<div class="popupCloseButton">X</div>';
   	$content .= '<section>';
     $content .= '<img id="logo" src=" '.plugins_url("partyvibesplugin/img/th-lang-logo.png").' " ';
-    $content .= 'alt="Cheers Logo">';
+    $content .= 'alt="TH. LANGS logo">';
     	$content .= '<h3 id="tilmeld">Hej jeg er studievejelder fra TH. LANGS </h3>';
   	$content .= '<h3 id="tilmeld">Har du et spørgsmål? Så skriv her</h3>';
   	$content .= '</section>';
