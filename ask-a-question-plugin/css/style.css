@@ -2,8 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background: #333;
-    text-transform: uppercase;
+    
 }
+
+h3{text-transform: uppercase;}
 
 .login-form {
     width: 350px !important;
