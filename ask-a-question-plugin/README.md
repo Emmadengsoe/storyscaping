@@ -1,6 +1,6 @@
 # wordPress-ask-a-question-plugin
 
-![Chocolate Chip Cookies](screenshot.png)
+![screenshot af plugin](screenshot.png)
 
 ***
 
