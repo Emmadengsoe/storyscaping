@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background: #333;
+    
 }
+
+h3{text-transform: uppercase;}
 
 .login-form {
     width: 350px !important;
@@ -29,7 +32,7 @@ body {
 }
 
 #tilmeld {
-    color: #1f1f1f;
+    color: #1f1f1f;text-transform: uppercase;
     margin-left: 3% !important;
     font-size: 14px;
     margin-top: 5% !important;
@@ -97,9 +100,9 @@ input[type="button"] {
 input[type="submit"] {
   	width: 100%;
     height: 50px;
-    background: #4bb9b4 !important;
+    background: #0E3854 !important;
     font-size: 16px;
-    color: #fff;
+    color: #fff !important;
     text-align: center;
     font-weight: 900;
     border: none;
@@ -109,20 +112,20 @@ input[type="submit"] {
 }
 
 input[type="button"]:hover {
-  	background-color: #8accc8 !important
-        /*#3e8e41*/
+  	background-color: #0E3854 !important
+        /*0E3854*/
     ;
     opacity: 0.9;
     color: white !important;
-    border: 2px solid #8accc8 !important;
+    border: 2px solid #0E3854 !important;
 }
 
 input[type="submit"]:hover {
-  	background-color: #8accc8 !important
+  	background-color: #0E3854 !important
         /*#3e8e41*/
     ;
     opacity: 0.9;
-    border: 2px solid #8accc8 !important;
+    border: 2px solid #0E3854 !important;
 }
 
 .input:hover {
@@ -132,8 +135,8 @@ input[type="submit"]:hover {
 }
 
 .popupCloseButton {
-    background-color: #fff;
-    border: 3px solid #4bb9b4 !important;
+    background-color: #0E3854;
+    border: 3px solid #0E3854 !important;
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
