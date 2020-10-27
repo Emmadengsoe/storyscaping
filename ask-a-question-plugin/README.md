@@ -1,6 +1,6 @@
 # wordPress-ask-a-question-plugin
 
-![screenshot af plugin](screenshot.png)
+![screenshot af plugin](screenshot.PNG)
 
 ***
 
