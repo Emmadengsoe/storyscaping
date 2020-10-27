@@ -15,7 +15,7 @@ function newsletter_form()
     $content .= '<div class="login-form">';
     $content .= '<div class="popupCloseButton">X</div>';
   	$content .= '<section>';
-    $content .= '<img id="logo" src=" '.plugins_url("ask-a-question-plugin/img/th-lang-logo.png").' "alt="TH. LANGS logo">';
+    $content .= '<img id="logo" src=" '.plugins_url("ask-a-question-plugin/img/studievejleder").' "alt="TH. LANGS logo">';
     	$content .= '<h3 id="tilmeld">Hej jeg er studievejelder fra TH. LANGS </h3>';
   	$content .= '<h3 id="tilmeld">Har du et spørgsmål? Så skriv her</h3>';
   	$content .= '</section>';
