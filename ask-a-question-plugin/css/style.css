@@ -109,8 +109,8 @@ input[type="submit"] {
 }
 
 input[type="button"]:hover {
-  	background-color: #8accc8 !important
-        /*#3e8e41*/
+  	background-color: #0E3854 !important
+        /*0E3854*/
     ;
     opacity: 0.9;
     color: white !important;

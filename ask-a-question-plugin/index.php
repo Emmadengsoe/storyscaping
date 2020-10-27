@@ -57,7 +57,7 @@ function newsletter_form()
     }
 
 /*Her henter vi newsletter delen*/
-add_shortcode('show_ask-a_question_plugin','newsletter_form');   
+add_shortcode('show_ask-a-question-plugin','newsletter_form');   
 
 /*Her linker vi til vores stylesheets og scripts*/
 add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
