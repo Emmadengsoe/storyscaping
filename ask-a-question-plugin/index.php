@@ -9,6 +9,8 @@
 * License: GPL2
 */
 
+/*Inspiration Murat Kilic - https://github.com/muratkilic1978/wordpress-partyvibesplugin*/
+
 function newsletter_form()
 {
     $content = '';
