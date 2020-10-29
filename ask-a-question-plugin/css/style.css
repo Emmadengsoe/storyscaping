@@ -92,7 +92,7 @@ input[type="button"] {
     font-size: 14px;
     color: #1f1f1f !important;
     outline: none;
-    border: 2px solid #4bb9b4 !important;
+    border: 2px solid #C7840E !important;
     font-weight: 600;
     cursor: pointer;
 }
@@ -100,32 +100,33 @@ input[type="button"] {
 input[type="submit"] {
   	width: 100%;
     height: 50px;
-    background: #0E3854 !important;
+    background: #C7840E !important;
     font-size: 16px;
     color: #fff !important;
     text-align: center;
     font-weight: 900;
-    border: none;
+    border: 2px solid #C7840E !important;
     margin-bottom: 5% !important;
     cursor: pointer !important;
     font-family: 'Montserrat', sans-serif;
 }
 
 input[type="button"]:hover {
-  	background-color: #0E3854 !important
+  	background-color: #C7840E !important
         /*0E3854*/
     ;
-    opacity: 0.9;
+    opacity: 0.3;
     color: white !important;
-    border: 2px solid #0E3854 !important;
+    border: 2px solid #C7840E !important;
 }
 
 input[type="submit"]:hover {
-  	background-color: #0E3854 !important
+  	background-color: white !important
         /*#3e8e41*/
     ;
     opacity: 0.9;
-    border: 2px solid #0E3854 !important;
+    border: 2px solid #C7840E !important;
+  color: black !important;
 }
 
 .input:hover {
@@ -135,7 +136,7 @@ input[type="submit"]:hover {
 }
 
 .popupCloseButton {
-    background-color: #0E3854;
+    background-color: #C7840E;
     border: 3px solid #0E3854 !important;
     border-radius: 50px;
     cursor: pointer;
